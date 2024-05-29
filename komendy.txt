@@ -1,0 +1,9 @@
+yarn add -D eslint-plugin-import
+
+yarn add -D prettier
+
+npx husky-init && yarn
+
+yarn add -D lint-staged
+
+yarn add -D @types/node
