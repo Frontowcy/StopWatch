@@ -1,3 +1,13 @@
-export const App = () => {
-    return <h1>Hello World!</h1>
-}
+type Props = {
+    name: string;
+};
+
+export const App = ({ name }: Props) => {
+    const a: string = 'Lorem ipsum dolor sit amet';
+
+    return (
+        <h1>
+            {name} {a}
+        </h1>
+    );
+};
