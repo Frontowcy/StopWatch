@@ -1,5 +1,5 @@
 export const Hello = () => {
-    const val: number = '212345';
+    const val: string = '212345';
     const c = 10;
 
     return (

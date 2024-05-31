@@ -5,9 +5,11 @@ type Props = {
 export const App = ({ name }: Props) => {
     const a: string = 'Lorem ipsum dolor sit amet';
 
+    const b: string = '';
+
     return (
         <h1>
-            {name} {a}
+            {name} {a} 
         </h1>
     );
 };
