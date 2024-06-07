@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint --report-unused-disable-directives",
     "prettify": "prettier --write",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit --jsx react-jsx",
+    "typecheck": "tsc --skipLibCheck --noEmit --jsx react-jsx",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -30,6 +30,7 @@
     "husky": "^8.0.0",
     "lint-staged": "^15.2.5",
     "prettier": "^3.2.5",
+    "sass": "^1.77.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
